@@ -1,0 +1,12 @@
+{
+  "name": "A1(8)-10.16",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Minah200465838/Assignment1-JS-MinahCho.git",
+  "author": "Minah Cho <19972001@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}

@@ -48,7 +48,39 @@
                 </button>
     </header>
     <!-- Main Content -->
-    <main></main>   
+    <main>
+        <form action="" method="get">                                
+  
+        <fieldset>
+            <legend> Contact Information </legend>
+            <div>
+                <label for="fName">First Name</label>
+                <input type="text" name="fName" id="fName" placeholder="Fitst Name here" required > <!-- including appropriate Validation Logic -->
+            </div>
+            <p>Minah</p>
+            <div>
+                <label for="lName">Last Name</label>
+                <input type="text" name="lName" id="lName" placeholder="Last Name here" required >
+            </div>
+            <p>Cho</p>
+            <div>
+                <label for="phone"> Phone Number </label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[ -][0-9]{3}[ -][0-9]{4}" placeholder="000-000-0000" required />
+            </div>
+            <p>000-000-0000</p>    
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="notes">Additional notes</label>
+                <textarea id="notes" name="notes" rows="10" cols="30"></textarea>
+            </div>
+            <p>This is a Contact Page </p>
+        </fieldset>
+    <button type="reset">Clear Form</button> <button type="submit">Go to the Bio Page</button>    
+    <button><a href="bio.html" class="button">Go to the Bio Page</a></button>              
+    </form> 
+    </main>   
     
     <!-- Main Footer Content -->
     <footer></footer>
